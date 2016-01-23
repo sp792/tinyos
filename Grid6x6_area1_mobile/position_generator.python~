@@ -1,0 +1,10 @@
+#!/usr/bin/pthon
+
+x = 0, y = 0;
+nodeid = 0;
+delta = 40;
+int i = 0, j = 0;
+while (i < 6):
+	x = 0;
+	y = y + delta;
+	while (j < 

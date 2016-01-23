@@ -1,0 +1,2 @@
+COMPONENT=MultihopeAppC
+include $(MAKERULES)

@@ -1,0 +1,18 @@
+#ifndef TASKGRID_H
+#define TASKGRID_H
+
+enum {
+	AM_BLINKTORADIO = 6,
+	TIMER_PERIOD_MILLI = 250
+	DEST_LOCATION_X = 6
+	DEST_LOCATION_Y = 6
+};
+
+typedef nx_struct TaskgridMsg {
+  nx_uint16_t nodeid;
+  nx_uint16_t pktid;
+  nx_uint16_t x;
+  nx_uint16_t y;
+} TaskgridMsg;
+
+#endif

@@ -1,0 +1,22 @@
+#!/usr/bin/pthon
+import sys
+x = 0
+y = 0
+nodeid = 0
+delta = 30
+i = 0
+j = 0
+sys.stdout = open('position_green.dat','w')
+print ('#node time(s) x y')
+while (i < 6):
+   x = 0
+   j = 0
+   while (j < 6):
+	  print nodeid,0.0,x,y
+	  #f.write(' '.join((nodeid,0.0,x,y)))
+	  j = j + 1
+	  nodeid = nodeid + 1
+	  x = x + delta 
+   i = i + 1
+   y = y + delta
+
